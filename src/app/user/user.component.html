@@ -1,16 +1,9 @@
 <div>
-    <button (click)="onSelectUser()" > <!-- this is the event binding method -->
-        <!-- <img src="./users/{{selectedUser.avatar}}" alt="" /> Don't use this way, use the propery binding method below --> 
-        <!-- <img
-            [src]="'./users/' + selectedUser.avatar"
-            [alt]="selectedUser.name" 
-        /> -->
-        <!-- this below uses the new getter method to get the image path -->
+    <button (click)="onSelectUser()" >
         <img
             [src]="imagePath"
-            [alt]="name" 
+            [alt]="name"
         />
-
         <span>{{ name }}</span>
     </button>
 </div>
