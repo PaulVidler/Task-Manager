@@ -26,11 +26,11 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ### Home screen
 
-![Task Manager App](Capture1.png)
+![Task Manager App](./Capture1.PNG)
 
 ### Add Task
 
-![Task Manager App](Capture2.png)
+![Task Manager App](./Capture2.PNG)
 
 ## Further Information
 
