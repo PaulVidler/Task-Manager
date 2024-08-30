@@ -1,16 +1,28 @@
 
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { UserComponent } from './user/user.component';
 import { TasksComponent } from './tasks/tasks.component';
+import { CardComponent } from './shared/card/card.component';
+import { TaskComponent } from './tasks/task/task.component';
+import { NewTaskComponent } from './tasks/new-task/new-task.component';
 
 @NgModule ({
-    declarations: [AppComponent], // if using non-standalone components, add imports here
+    declarations: [
+        AppComponent, 
+        HeaderComponent, 
+        UserComponent, 
+        CardComponent, 
+        TasksComponent, 
+        TaskComponent, 
+        NewTaskComponent 
+    ], // if using non-standalone components, add imports here
     bootstrap: [AppComponent],
     // other modules can also be included in the below array
-    imports: [BrowserModule, HeaderComponent, UserComponent, TasksComponent], // if using standalone components, add imports here. This may be helpful in a gradual porting of a project to standalone compoents
+    imports: [BrowserModule, FormsModule], // if using standalone components, add imports here. This may be helpful in a gradual porting of a project to standalone compoents
 })
 export class AppModule {}
