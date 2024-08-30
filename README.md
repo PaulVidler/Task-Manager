@@ -9,6 +9,8 @@ This project is a practice application from an Angular course I am currently wor
 - **Custom CSS**: The UI is styled using custom CSS to provide a user-friendly and visually appealing interface.
 - **Data Handling**: The app practices passing variables up and down the component hierarchy, enabling dynamic and responsive data handling.
 - **Browser Storage**: Task data is stored locally in the browser's storage, allowing users to maintain their tasks across sessions without the need for a backend.
+- **Using Modules**: See this branch for an edited version of this application that is using modules instead of single components: [Task Manager - Using Modules Branch](https://github.com/PaulVidler/Task-Manager/tree/Task-app-editing-completed-application-to-use-modules)
+
 
 ## Development Server
 
